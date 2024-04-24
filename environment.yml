@@ -1,0 +1,27 @@
+# To set up a development environment using conda, run:
+#
+#   conda env create -f environment.yml
+#   conda activate phytohotspot
+#
+name: phytohotspot
+channels:
+  - conda-forge
+dependencies:
+  - shapely>=1.6.4
+  - geos>=3.7.2
+  - pyshp>=2.1
+  - pyproj>=3.0.0
+  # PROJ is still required for now
+  - proj>=8
+  # The testing label has the proper version of freetype included
+  - conda-forge/label/testing::matplotlib-base>=3.1
+  - xarray
+  - geopandas
+  - pip
+  - pip:
+    - keplergl==0.3.2
+    - matplotlib==3.4.3
+    - Pydap
+    - h5netcdf
+    - netCDF4
+    
