@@ -1,6 +1,10 @@
 # Phytoplankton hotspots with Blue Cloud phytoplankton data products
 
-## Deliverable 3 Code for solution. 
+THIS IS FROM https://github.com/gis4-wildlife/PhytoplanktonNotebook-BlueCloud.
+
+Working copy so we can push code without pull requests
+
+
 
 Run the notebook online with Binder:
 
