@@ -1,1 +1,4 @@
 *.nc
+*.txt
+*.gitkeep
+*.pkl
