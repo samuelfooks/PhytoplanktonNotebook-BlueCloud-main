@@ -2,3 +2,6 @@
 *.txt
 *.gitkeep
 *.pkl
+*.zarr
+/data
+
