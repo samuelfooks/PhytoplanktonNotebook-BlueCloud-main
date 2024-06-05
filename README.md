@@ -1,10 +1,10 @@
 ## Whale Tracker using ARCO Blue Cloud Phytoplankton Data Products
 
-This project is a modified version of the notebooks available at [gis4-wildlife/PhytoplanktonNotebook-BlueCloud](https://github.com/gis4-wildlife/PhytoplanktonNotebook-BlueCloud). It ARCO versions of gridded products in combination with wildlife tracking data and other geospatial data to provide an interactive exploration of possible relationships between the movement of marine mammals and these parameters.  
+This project is a modified version of the notebooks available at [gis4-wildlife/PhytoplanktonNotebook-BlueCloud](https://github.com/gis4-wildlife/PhytoplanktonNotebook-BlueCloud). It utilizes Analysis Ready Cloud Optimized(ARCO) versions of gridded chlorophyll data (a proxy of the total phytoplankton biomass) in combination with wildlife tracking data and other geospatial data to provide an interactive exploration of possible relationships between the movement of marine mammals and these parameters.  
 
 ### Overview
 
-The project combines global open ocean three-dimensional (3D) gridded products of (1) chlorophyll a concentration (Chla), which is a proxy of the total phytoplankton biomass, into a single zarr dataset.  This is hosted on an S3 location. By accessing the data in this way, users can efficiently overlay each of the modeled phytoplankton months without the need to download large NetCDF datasets.
+The project combines global open ocean three-dimensional (3D) gridded products of (1) chlorophyll a concentration (Chla), into a single Cloud Optimized Zarr dataset.  This is hosted on an S3 location. By accessing the data in this way, users can efficiently overlay each of the modeled phytoplankton months without the need to download large NetCDF datasets.
 
 ### Features
 
